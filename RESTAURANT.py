@@ -11,4 +11,10 @@ my_dict = {"1": ("apple", 500),
     "3": ("grape", 300),
     "4": ("mango", 400)}
 while True:
-    pass
+    try:
+        user = input("Enter your choice: ")
+        
+    except Exception as e:
+        print(f"your input is not valid, it is not in the menu list{e}")
+
+        
