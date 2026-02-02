@@ -165,30 +165,7 @@ while True:
 print final result
 
 
-If you want, next I can give you:
-✅ 5 fully written example programs (Restaurant, ATM, Contact Book, Quiz, Shopping Cart)
-OR
-✅ One universal template you can reuse for all 30
-OR
-✅ PDF list of these 30 problems
 
-Just reply with:
-1) Give 5 sample programs
-2) Universal template
-3) PDF list
-4) All three
-
-NOW PROVIDE A SKELETON FOR ALL THE ABOVE 30 PROBLEMS WHICH INCLUDE DEF,LOOPS,WHILE TRUE,CONDITIONAL STATEMENTS, TRY AND EXCEPT,INPUT ,Q,DICTIONARY
-"""
-UNIVERSAL MENU-DRIVEN SKELETON (Restaurant-style)
-Use this SAME skeleton for all 30 programs.
-Just change:
-1) MENU dictionary
-
-NOW PROVIDE A SKELETON FOR ALL THE ABOVE 30 PROBLEMS WHICH INCLUDE DEF,LOOPS,WHILE TRUE,CONDITIONAL STATEMENTS, TRY AND EXCEPT,INPUT ,Q,DICTIONARY,LIST,TUPLE,OPERATORS
-"""
-UNIVERSAL MENU-DRIVEN SKELETON (Restaurant-style)
-Works for all your 30 programs.
 
 Includes:
 - def functions
