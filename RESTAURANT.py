@@ -13,8 +13,13 @@ my_dict = {"1": ("apple", 500),
 while True:
     try:
         user = input("Enter your choice: ")
-        
-    except Exception as e:
-        print(f"your input is not valid, it is not in the menu list{e}")
+         if user == "q":
+            break
+        item = my_dict[user][1]
+        total+=item
+    except Exception:
+        print(f"your input is not valid, it is not in the menu list")
+print(f"hence your final bill is:{total}")
+
 
         
