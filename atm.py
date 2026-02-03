@@ -12,12 +12,16 @@ class hdfcbank:
                 user_input=input("ENTER YOUR CHOICE OR q TO QUIT:")
                 if user_input == "q":
                        return (f"THANKS FOR VISITING US!!{self.exit_q}")
+                       break
                 elif user_input == "deposit":
                        return (f"YOUR DEPOSIT AMOUNT IS:{self.deposit_money}")
+                       break
                 elif user_input == "withdraw":
                        return (f"YOUR WITHDRAW AMOUNT IS:{self.withdraw_money}")
+                       break
                 elif user_input == "check balance":
                        return (f"YOUR BALANCE AMOUNT IS:{self.checkbal_money}")
+                       break
                 else:
                         return ("INVALID INPUT")
         
