@@ -1,0 +1,41 @@
+#NOTES
+🔤 PYTHON STRING METHODS CHART
+🔹 Case Conversion Methods
+Method	Use	Example	Output
+upper()	Convert to uppercase	"hello".upper()	"HELLO"
+lower()	Convert to lowercase	"HELLO".lower()	"hello"
+capitalize()	First letter capital	"python".capitalize()	"Python"
+title()	Capitalize each word	"hello world".title()	"Hello World"
+swapcase()	Swap case	"PyThOn".swapcase()	"pYtHoN"
+🔹 Space Handling Methods
+Method	Use	Example	Output
+strip()	Remove both sides space	" hi ".strip()	"hi"
+lstrip()	Remove left space	" hi ".lstrip()	"hi "
+rstrip()	Remove right space	" hi ".rstrip()	" hi"
+🔹 Search & Count Methods
+Method	Use	Example	Output
+find()	Find index	"hello".find("e")	1
+index()	Find index (error if not found)	"hello".index("e")	1
+count()	Count substring	"banana".count("a")	3
+startswith()	Check start	"hello".startswith("h")	True
+endswith()	Check end	"hello".endswith("o")	True
+🔹 Replace & Split Methods
+Method	Use	Example	Output
+replace(a,b)	Replace text	"hi".replace("h","H")	"Hi"
+split()	Split string → list	"a b c".split()	['a','b','c']
+split(",")	Split by comma	"a,b,c".split(",")	['a','b','c']
+join(list)	Join list → string	" ".join(['hi','all'])	"hi all"
+🔹 Checking Methods (Boolean)
+Method	Use	Example	Output
+isupper()	All uppercase?	"HELLO".isupper()	True
+islower()	All lowercase?	"hi".islower()	True
+isdigit()	Only digits?	"123".isdigit()	True
+isalpha()	Only letters?	"abc".isalpha()	True
+isalnum()	Letters + digits	"a1".isalnum()	True
+isspace()	Only spaces	" ".isspace()	True
+🔹 Formatting Methods
+Method	Use	Example	Output
+format()	Format string	"My age is {}".format(20)	"My age is 20"
+center(w)	Center text	"hi".center(6)	" hi "
+zfill(n)	Add zeros	"45".zfill(4)	"0045"
+#OVER
