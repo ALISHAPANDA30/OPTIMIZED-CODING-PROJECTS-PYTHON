@@ -60,3 +60,11 @@ print("ADVANCED LIST COMPREHENSION METHOD")
 result = [char.upper() for char in "hello"]
 # → ['H', 'E', 'L', 'L', 'O']
 
+Placement,What methods?,When to use? / Examples,Why?
+Before 'for' (prepares the loop input),"split(), strip() (on whole string), replace() (on whole if global change first), list() (to turn string into char list)","- When you need to break/clean the string first to loop properly.
+- E.g., [word.upper() for word in sentence.split()] → split() before 'for' to loop over words.
+- E.g., [c for c in sentence.strip()] → strip() removes outer spaces before looping chars.","Creates the sequence (e.g., words/chars) — without this, 'for' has nothing good to loop on. Use when input needs global prep (e.g., dirty sentence)."
+After 'for' (in the expression – acts on each item),"upper()/lower()/title()/capitalize(), replace() (on each), strip() (on each word), startswith()/endswith(), isdigit()/isalpha() (for checks)","- When you transform/filter per item (word/char).
+- E.g., [word.upper() for word in words] → upper() after 'for' on each word.
+- E.g., [word.strip("","") for word in csv_data.split("","")] → strip() cleans each piece.","Applies to one item at a time — efficient for per-word/char changes. Use when loop is set, but items need individual tweaks."
+
